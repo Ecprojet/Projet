@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto+Mono:wght@100&family=Tajawal:wght@300&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+form {
+    margin-top: 20px;
+    background-color: black;
+    padding: 40px 60px;
+    border-radius: 20px;
+    min-width: 300px;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form .social-media {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social-media p {
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+form p.choisir-mail {
+    text-align: center;
+    color: yellow;
+}
+
+form .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type="mail"],
+input[type="mot de passe"] {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+form p.inscription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form p.inscription span {
+    color: yellow;
+}
+
+form button {
+    padding: 15px 25px;
+    border: none;
+    font-size: 15px;
+    color: black;
+    background-color: yellow;
+    outline: none;
+    cursor: pointer;
+}
